@@ -5,7 +5,7 @@ import { IoSearch } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 const NavbarSection = () => {
   return (
-    <div className='lg:w-[1424px] mx-auto lg:py-6 bg-white'>
+    <div className='lg:w-[1324px] mx-auto lg:py-4 bg-white'>
       <div className="navbar bg-base-100 ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -33,7 +33,7 @@ const NavbarSection = () => {
         </div>
         <div className="navbar-end">
           <label htmlFor="my_modal_7" className=''><IoSearch className='lg:text-[25px]  lg:me-5 ' /></label>
-          <button className="btn bg-green-500 text-white lg:btn-lg lg:ms-0 ms-3">
+          <button className="btn bg-green-500 hover:bg-white text-white hover:text-black hover:border-2 hover:border-green-500 lg:btn-lg lg:ms-0 ms-3">
             Post Job
           </button>
         </div>
