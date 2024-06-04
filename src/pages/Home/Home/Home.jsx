@@ -1,6 +1,7 @@
 import React from 'react';
 import BannerSection from '../BannerSection/BannerSection';
 import BrowseJobSection from '../BrowseJobSection/BrowseJobSection';
+import Categories from '../Categories/Categories';
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
     
             <BannerSection></BannerSection>
             <BrowseJobSection></BrowseJobSection>
+            <Categories></Categories>
         </div>
     );
 };

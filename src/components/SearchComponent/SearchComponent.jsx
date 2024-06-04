@@ -46,7 +46,7 @@ const SearchComponent = () => {
                                             <select name="banner-select" className='py-4  px-8 text-lg w-full'><option value="1">All category</option><option value="1">Health Care</option><option value="1">Management</option><option value="1">Marketing</option></select>
                                     </div>
                                     <div class="col-span-2 ">
-                                        <button type="submit" className='lg:py-3  lg:px-6 w-11/12 mx-auto flex justify-center items-center text-white  bg-green-500 hover:bg-white  hover:text-black hover:border-2 hover:border-green-500 '> <IoSearch className='lg:text-[25px]  lg:me-5 ' /> <span className='text-lg'>Search</span></button>
+                                        <button type="submit" className='lg:py-3  lg:px-6 w-11/12 mx-auto flex justify-center items-center text-white  bg-green-500 hover:bg-white  hover:text-black hover:border-2 hover:border-green-500 border-2 border-green-500'> <IoSearch className='lg:text-[25px]  lg:me-5 ' /> <span className='text-lg'>Search</span></button>
                                     </div>
                                 </div>
                                 </TabPanel>

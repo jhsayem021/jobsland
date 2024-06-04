@@ -7,11 +7,11 @@ import { IoSearch } from 'react-icons/io5';
 const BrowseJobSection = () => {
     return (
         <div>
-            <div className='grid grid-cols-2 gap-20 justify-between items-center lg:w-[1424px] mx-auto lg:py-34 py-10 px-5'>
-                <div className='col-span-1'>
+            <div className='lg:grid lg:grid-cols-2 lg:gap-20 justify-between items-center lg:w-[1424px] mx-auto lg:py-34 py-10 px-5'>
+                <div className='col-span-1 mb-12 lg:mb-0 p-4 lg:p-0'>
                     <div>
                         <h1 className='lg:text-[55px] text-[35px] font-bold lg:mb-4 mb-3' >Suits Jobs For You.
-                            
+
                         </h1>
                     </div>
                     <div>
@@ -28,11 +28,11 @@ const BrowseJobSection = () => {
                         <span className='text-green-500 text-lg'> <FiMail /> </span> <p className='text-[#919191] text-[18px] ps-3'>Get notified</p>
                     </div>
                     <div>
-                    <button type="submit" className='lg:py-3  lg:px-6 mt-5 flex justify-center items-center text-white  bg-green-500 hover:bg-white  hover:text-black hover:border-2 hover:border-green-500 '>  <span className='text-lg'>Browse Job</span></button>
+                        <button type="submit" className='lg:py-3  lg:px-6 p-2 mt-5 flex justify-center items-center text-white  bg-green-500 hover:bg-white  hover:text-black hover:border-2 hover:border-green-500 border-2 border-green-500'>  <span className='lg:text-lg'>Browse Job</span></button>
                     </div>
                 </div>
-                <div className='col-span-1'>
-                    <img src={browseimg} alt="" />
+                <div className='col-span-1 flex justify-center'>
+                    <img className='w-5/6' src={browseimg} alt="" />
                 </div>
             </div>
         </div>
