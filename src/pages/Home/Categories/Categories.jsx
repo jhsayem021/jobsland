@@ -10,7 +10,7 @@ const Categories = () => {
             subTitle="Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula"
             ></Sectiontitle>
 
-            <div className='grid grid-cols-4 gap-8 lg:w-[1424px] mx-auto'>
+            <div className='grid md:grid-cols-4 grid-cols-1 gap-8 lg:w-[1424px] mx-auto md:px-0 px-5' >
                 <CategoryCard></CategoryCard>
                 <CategoryCard></CategoryCard>
                 <CategoryCard></CategoryCard>
